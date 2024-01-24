@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>_______😊_______</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/decd368f1f.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="Images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li> <a href="#about">About</a></li>
+                <li> <a href="#services">Services</a></li>
+                <li> <a href="#portfolio">Portfolio</a></li>
+                <li> <a href="#contact">Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-ellipsis-vertical" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Software Engineer</p>
+            <h1>Hi, I'm <span>Anshuman</span><br> From India</h1>
+        </div>
+    </div>
+</div>
+
+<!---------------ABOUT---------------->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="Images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>As an engineering student, I have diligently pursued knowledge within the academic realm, leveraging my college experience to build a solid foundation in my field. Eager to apply theoretical learning to practical challenges, I am poised to contribute meaningfully in the dynamic landscape of engineering.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        <li><span>Web Developement</span><br>Designing Webpages</li>
+                        <li><span>App Developement</span><br>Designing Applications</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2021-current</span><br>B-Tech Student at SRM University</li>
+                        <li><span>2019-2021</span><br>Student At Mohanpur High School</li>
+                        <li><span>2010-2019</span><br>Student At Arunya Netaji Siksha Niketan</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2019</span><br>Arunya Netaji Siksha Niketan</li>
+                        <li><span>2021</span><br>Mohanpur High School</li>
+                        <li><span>2025</span><br>SRM Institute Of Science And Technology</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------SERVICES---------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-laptop-code"></i>
+                <h2>Problem Solving</h2>
+                <p>Navigating the diverse landscapes of platforms like GeeksforGeeks and LeetCode, I honed my problem-solving acumen, progressing seamlessly from easy challenges to formidable ones. Each solved puzzle became a stepping stone in mastering algorithmic complexities, fostering a deep understanding of data structures and efficient coding practices. This iterative journey not only elevated my technical prowess but also instilled a resilient problem-solving mindset, crucial for tackling real-world coding challenges.</p>
+                <a href="http://127.0.0.1:8000">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-shield-halved"></i>
+                <h2>Cyber Security</h2>
+                <p>Delving into the realm of cybersecurity, I fortified my foundation in networking and operating systems at a granular level. With a keen understanding of low-level intricacies, I explored vulnerabilities, dissected packet flows, and honed skills to fortify against potential threats. This journey not only empowered me to comprehend the nuances of network security but also equipped me to implement robust measures, ensuring the resilience of systems in the face of evolving cyber challenges.</p>
+                <a href="https://www.google.com/">Learn More</a>
+            </div>
+            <div>
+                <i class="fa-regular fa-newspaper"></i>
+                <h2>UI/UX</h2>
+                <p>Embarking on UI design, I seamlessly blended Python's GUI prowess with HTML, CSS, and JavaScript for dynamic web interfaces. Crafting intuitive user experiences became second nature as I navigated the intricacies of responsive design, harmonizing the power of code to shape visually captivating and functional interfaces. This journey not only refined my technical skills but also fueled a passion for creating seamless and aesthetically pleasing user interactions.</p>
+                <a href="https://www.google.com/">Learn More</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-------------PORTFOLIO---------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work1.png">
+                <div class="layer">
+                    <h3>Social Media App</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work2.png">
+                <div class="layer">
+                    <h3>GUI Calculator</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="Images/work3.png">
+                <div class="layer">
+                    <h3>Website Using Django</h3>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+
+<!----------------CONTACT----------------------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>asloging@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>9883372081</p>
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://twitter.com/Anshu4s"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.instagram.com/anshu4s_"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/anshu4s/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+                <span id="msg">Hello!</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p><i class="fa-regular fa-copyright"></i>Anshu.</p>
+    </div>
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+<!---------------Contact added to Html--------------------->
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbytPrbtLFhWBFYpOatHv2WHM17RMTZwGl6jrHiyhm2ZGKk6cCOCdMBkg-HIxhSEn2KF/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message Sent Succesfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
